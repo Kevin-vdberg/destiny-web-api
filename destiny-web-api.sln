@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "destiny-web-api", "destiny-web-api.csproj", "{B71F85CC-9CE8-4415-A2C6-374503B3798B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B71F85CC-9CE8-4415-A2C6-374503B3798B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B71F85CC-9CE8-4415-A2C6-374503B3798B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B71F85CC-9CE8-4415-A2C6-374503B3798B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B71F85CC-9CE8-4415-A2C6-374503B3798B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACB977F6-9B7E-4BFA-AC9F-52A7FCD6E7FE}
+	EndGlobalSection
+EndGlobal

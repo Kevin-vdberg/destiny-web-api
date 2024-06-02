@@ -1,0 +1,8 @@
+# project folders and files
+/bin
+/obj
+
+# IDE and system folders and files
+.vscode
+.DS_Store
+/.vs
