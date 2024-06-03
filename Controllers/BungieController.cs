@@ -1,17 +1,24 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
+using Destiny;
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace DestinyWebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class BungieController : ControllerBase 
     {
 
     [HttpGet("home")]
+    //[Authorize(Policy = "bungie-enabled")]
     public string Get()
     {
-        return "Hello world!";
+        PostgreSqlDatabase db = new PostgreSqlDatabase();
+            
+        return db.GetVersion();
     }
 
         /*
